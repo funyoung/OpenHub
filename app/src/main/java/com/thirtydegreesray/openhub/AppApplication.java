@@ -62,8 +62,6 @@ public class AppApplication extends Application {
         initBugly();
         startTime = System.currentTimeMillis();
         Logger.t(TAG).i("application ok:" + (System.currentTimeMillis() - startTime));
-
-
     }
 
     private void initLogger(){

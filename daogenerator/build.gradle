@@ -3,7 +3,7 @@ apply plugin: 'application'
 mainClassName = "com.thirtydereesray.AppDaoGenerator"
 
 dependencies {
-    implementation "org.greenrobot:greendao-generator:${GREEN_DAO_VERSION}"
+    implementation "org.greenrobot:greendao-generator:3.3.0"
 }
 
 sourceCompatibility = "1.8"
